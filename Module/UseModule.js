@@ -1,0 +1,6 @@
+var sum=require('./add.js')
+var min=require('./sub.js')
+var addition=sum.add(4,4)
+var minus=min.sub(4,4)
+console.log("addition is : "+addition)
+console.log("substraction is : "+minus)
